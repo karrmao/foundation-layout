@@ -22,6 +22,7 @@
 
   &__button {
     display: none;
+    width: 160px;
 
     @include for-large-up {
       display: block;
