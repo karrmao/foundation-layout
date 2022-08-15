@@ -33,7 +33,7 @@
         rgba(255, 255, 255, 1e-5) 100%
       ),
       #ffffff;
-    color: #3040c4;
+    color: $color-blue-third;
 
     @include for-large-down {
       width: 100%;

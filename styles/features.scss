@@ -21,7 +21,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 34px;
-    color: #009b4d;
+    color: $color-green;
     margin: 0;
   }
 
@@ -52,7 +52,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
-    color: #3142c6;
+    color: $color-blue-second;
     margin: 0;
     margin-left: 15px;
   }
@@ -64,11 +64,11 @@
     margin-top: 8px;
     margin-bottom: 0;
     padding-bottom: 20px;
-    border-bottom: 3px solid #3142c6;
+    border-bottom: 3px solid $color-blue-second;
   }
 
   &__advantage-item {
-    border-bottom: 1px solid #2b292d15;
+    border-bottom: 1px solid $color-dark-satin-alfa-15;
     margin-top: 21px;
     padding-bottom: 22px;
     display: flex;

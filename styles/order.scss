@@ -1,5 +1,5 @@
 .order {
-  background-color: rgba(244, 245, 247, 1);
+  background-color: $color-light-gray-first;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,10 +27,6 @@
 
   &__illustration {
     max-width: 270px;
-
-    // @include for-large-up {
-    //   margin-right: 125px;
-    // }
 
     @include for-large-up {
       margin: 72px;
@@ -60,8 +56,8 @@
   }
   &__email {
     margin-top: 0px;
-    background: #ffffff;
-    border: 1px solid rgba(43, 41, 45, 0.2);
+    background: $color-white;
+    border: 1px solid $color-dark-satin-alfa-20;
     border-radius: 2px;
     height: 48px;
     width: 385px;
@@ -75,8 +71,8 @@
     }
 
     &::placeholder {
-      color: rgba(43, 41, 45, 1);
-      padding-left: 10px;
+      color: $color-dark-satin;
+      //padding-left: 10px;
     }
   }
 
@@ -93,10 +89,10 @@
   &__terms {
     font-size: 14px;
     line-height: 22px;
-    color: rgba(43, 41, 45, 0.6);
+    color: $color-dark-satin-alfa-60;
   }
 
   &__terms-link {
-    color: rgba(49, 66, 198, 1);
+    color: $color-blue-third;
   }
 }

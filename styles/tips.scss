@@ -8,7 +8,7 @@
 
 .tip {
   padding: 40px 15px 0 15px;
-  border-bottom: 1px solid #e3e3e3;
+  border-bottom: 1px solid $color-light-gray-second;
 
   &-border_none {
     border-bottom: none;
@@ -18,7 +18,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 34px;
-    color: #009b4d;
+    color: $color-green;
   }
 
   &__title {
@@ -53,7 +53,7 @@
     font-size: 14px;
     line-height: 22px;
     text-align: center;
-    color: rgba(43, 41, 45, 0.6);
+    color: $color-dark-satin-alfa-60;
     margin-top: 20px;
     max-width: 100%;
   }

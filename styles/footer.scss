@@ -32,7 +32,7 @@
   }
 
   &__line {
-    border-top: 1px solid rgba(43, 41, 45, 1);
+    border-top: 1px solid $color-dark-satin;
     width: 100%;
     opacity: 0.1;
     margin: 0;
@@ -49,7 +49,7 @@
     font-size: 18px;
     width: 360px;
     margin-top: 26px;
-    color: rgba(43, 41, 45, 0.6);
+    color: $color-dark-satin-alfa-60;
 
     @include for-large-up {
       display: block;
@@ -92,7 +92,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
-    color: #2b292d;
+    color: $color-dark-satin;
     margin: 0;
   }
 
@@ -100,7 +100,7 @@
     font-size: 18px;
     line-height: 30px;
     list-style-type: none;
-    color: rgba(43, 41, 45, 0.6);
+    color: $color-dark-satin-alfa-60;
     padding: 0;
     margin: 0;
     margin-top: 18px;
@@ -135,7 +135,7 @@
 
   &__items {
     text-decoration: none;
-    color: rgba(43, 41, 45, 0.6);
+    color: $color-dark-satin-alfa-60;
     margin-right: 22px;
   }
 }
@@ -155,8 +155,30 @@
   &__item:first-child {
     margin-left: 0;
   }
-}
 
+  &__item-icon {
+    display: inline-block;
+    height: 17px;
+    background-repeat: no-repeat;
+  }
+
+  .icon {
+    &-twitter {
+      width: 21px;
+      background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-twitter.png');
+    }
+
+    &-facebook {
+      width: 18px;
+      background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-fb.png');
+    }
+
+    &-linkedin {
+      width: 18px;
+      background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png');
+    }
+  }
+}
 .about-company {
   margin-top: 44px;
 }
@@ -187,6 +209,6 @@
     font-size: 18px;
     line-height: 25px;
     text-align: center;
-    color: rgba(43, 41, 45, 0.6);
+    color: $color-dark-satin-alfa-60;
   }
 }

@@ -1,11 +1,11 @@
 .top-section {
-  background-color: #f3c6bd;
+  background-color: $color-light-orange;
 }
 
 .header {
   height: 64px;
   width: 100%;
-  background-color: #fff;
+  background-color: $color-white;
   display: flex;
   align-items: center;
   padding-left: 15px;
@@ -13,7 +13,7 @@
   @include for-large-up {
     width: 1140px;
     height: 62px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: $color-white-alfa-0;
     margin: auto;
     display: flex;
     padding-top: 39px;
@@ -32,7 +32,7 @@
   &__menu-button {
     width: 58px;
     border: none;
-    border-left: 1px solid #00000026;
+    border-left: 1px solid $color-black-alfa-26;
     height: 100%;
     margin-left: auto;
     background: transparent;
@@ -65,7 +65,7 @@
   }
 
   &__item {
-    color: #2b292d;
+    color: $color-dark-satin;
     text-decoration: none;
     line-height: 25px;
     font-size: 18px;
@@ -123,7 +123,7 @@
       display: block;
       font-size: 18px;
       line-height: 25px;
-      color: #2b292d;
+      color: $color-dark-satin;
       opacity: 0.6;
     }
   }
