@@ -17,7 +17,7 @@
     background-color: rgba(255, 255, 255, 0);
     margin: auto;
     display: flex;
-    padding-top: 39px;
+    padding-top: 46px;
     padding-left: 0;
   }
 }
@@ -339,7 +339,7 @@
   padding: 40px 15px 0 15px;
   border-bottom: 1px solid #e3e3e3;
 }
-.tip-border_none {
+.tip:last-child {
   border-bottom: none;
 }
 .tip__subtitle {
@@ -361,6 +361,7 @@
   line-height: 34px;
   margin: 0;
   margin-top: 13px;
+  margin-bottom: 30px;
 }
 .tip__decoration {
   margin: 0;
@@ -369,16 +370,18 @@
   flex-direction: column;
   align-items: center;
 }
-.tip__image {
-  margin-top: 29px;
-}
 .tip__image-caption {
+  margin: 0;
+  text-align: center;
+  min-width: 100%;
   font-size: 14px;
   line-height: 22px;
-  text-align: center;
+  font-weight: 400;
   color: rgba(43, 41, 45, 0.6);
-  margin-top: 20px;
-  max-width: 100%;
+}
+
+figcaption.tip__image-caption {
+  margin: 20px 0 10px;
 }
 
 .features {
@@ -652,6 +655,7 @@
 }
 .order__email {
   margin-top: 0px;
+  padding-left: 15px;
   background: #fff;
   border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 2px;
