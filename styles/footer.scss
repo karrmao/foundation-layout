@@ -112,7 +112,7 @@
 }
 
 .downloads {
-  margin: 25px 15px 0 15px;
+  margin: 25px 15px 40px 15px;
   display: flex;
   justify-content: center;
 
@@ -184,6 +184,10 @@
 
 .about-company {
   margin-top: 44px;
+
+  @include for-large-down {
+    border-bottom: 1px solid $color-light-gray-second;
+  }
 }
 
 .logo-vertical {

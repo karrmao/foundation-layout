@@ -56,7 +56,11 @@
   }
   &__email {
     margin-top: 0px;
-    padding-left: 15px;
+
+    @include for-large-up {
+      padding-left: 15px;
+    }
+
     background: $color-white;
     border: 1px solid $color-dark-satin-alfa-20;
     border-radius: 2px;

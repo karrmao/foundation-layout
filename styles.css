@@ -655,7 +655,6 @@ figcaption.tip__image-caption {
 }
 .order__email {
   margin-top: 0px;
-  padding-left: 15px;
   background: #fff;
   border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 2px;
@@ -663,6 +662,11 @@ figcaption.tip__image-caption {
   width: 385px;
   font-size: 18px;
   line-height: 13px;
+}
+@media screen and (min-width: 1400px) {
+  .order__email {
+    padding-left: 15px;
+  }
 }
 @media screen and (max-width: 1399px) {
   .order__email {
@@ -806,7 +810,7 @@ figcaption.tip__image-caption {
 }
 
 .downloads {
-  margin: 25px 15px 0 15px;
+  margin: 25px 15px 40px 15px;
   display: flex;
   justify-content: center;
 }
@@ -873,6 +877,11 @@ figcaption.tip__image-caption {
 
 .about-company {
   margin-top: 44px;
+}
+@media screen and (max-width: 1399px) {
+  .about-company {
+    border-bottom: 1px solid #e3e3e3;
+  }
 }
 
 .logo-vertical {
