@@ -733,6 +733,11 @@ figcaption.tip__image-caption {
   margin: 0;
   margin-top: 40px;
 }
+@media screen and (max-width: 1399px) {
+  .footer__line {
+    display: none;
+  }
+}
 @media screen and (min-width: 1400px) {
   .footer__line {
     margin: 0;
@@ -853,15 +858,15 @@ figcaption.tip__image-caption {
   height: 17px;
   background-repeat: no-repeat;
 }
-.social-links .icon-twitter {
+.social-links__item-icon_twitter {
   width: 21px;
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-twitter.png");
 }
-.social-links .icon-facebook {
+.social-links__item-icon_facebook {
   width: 18px;
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-fb.png");
 }
-.social-links .icon-linkedin {
+.social-links__item-icon_linkedin {
   width: 18px;
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png");
 }
@@ -928,18 +933,6 @@ figcaption.tip__image-caption {
     width: 100%;
     margin-left: 0;
     margin-top: 15px;
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  .hide_desktop {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 1399px) {
-  .hide_mobile {
-    display: none;
   }
 }
 

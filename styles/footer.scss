@@ -32,6 +32,10 @@
   }
 
   &__line {
+    @include for-large-down {
+      display: none;
+    }
+
     border-top: 1px solid $color-dark-satin;
     width: 100%;
     opacity: 0.1;
@@ -160,25 +164,24 @@
     display: inline-block;
     height: 17px;
     background-repeat: no-repeat;
-  }
 
-  .icon {
-    &-twitter {
+    &_twitter {
       width: 21px;
       background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-twitter.png');
     }
 
-    &-facebook {
+    &_facebook {
       width: 18px;
       background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-fb.png');
     }
 
-    &-linkedin {
+    &_linkedin {
       width: 18px;
       background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-linkedIn.png');
     }
   }
 }
+
 .about-company {
   margin-top: 44px;
 }
